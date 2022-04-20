@@ -1,6 +1,7 @@
 # SSR(Sever Side Randering) 
 ## SSR 이란 ? 
 브라우저에서 서버에 페이지를 요청할 때 마다 완전하게 만들어진 HTML, CSS, JS 파일을 받아와 해당 페이지를 렌더링 하는 방식이다.
+
 <img src="./images/ssr.png">
 
 
@@ -13,4 +14,18 @@
 
 # CSR(Client Side Randering)
 ## CSR 이란? 
-서버에서 HTML 파일을 처리하지 않고 브라우저의 자바스크립트를 통해 상호작용하는 방식이다 
+서버에서 HTML 파일을 처리하지 않고 브라우저의 자바스크립트를 통해 상호작용하는 방식이다. 
+
+<img src="./images/CSR.png">
+
+## 장점
+* 첫 로딩만 기다리면 동적으로 빠르게 렌더링 되기 때문에 사용자 친화적이다.
+* 서버의 요청하는 횟수가 적기 때문에 서버의 부담이 적다.
+## 단점
+* 모든 JS파일을 받아야 되기 때문에 초기 로딩 속도가 느리다.
+* 자바스크립트를 사용하여 사용자의 상호작용 후에 페이지가 로드(그전에 내용을 볼수 없다 )
+  * 검색엔진의 검색 봇이 크롤링을 하는데 어려움을 겪기 때문에 SEO에 불리하다.
+
+# 참고
+* https://miracleground.tistory.com/165 
+* https://github.com/baeharam/Must-Know-About-Frontend/blob/main/Notes/frontend/csr-ssr.md
