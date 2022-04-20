@@ -27,5 +27,6 @@
   * 검색엔진의 검색 봇이 크롤링을 하는데 어려움을 겪기 때문에 SEO에 불리하다.
 
 # 참고
-* https://miracleground.tistory.com/165 
-* https://github.com/baeharam/Must-Know-About-Frontend/blob/main/Notes/frontend/csr-ssr.md
+* [SSR(서버사이드 렌더링)과 CSR(클라이언트 사이드 렌더링)](https://miracleground.tistory.com/165)
+* [CSR(Client Side Rendering)과 SSR(Server Side Rendering)](https://github.com/baeharam/Must-Know-About-Frontend/blob/main/Notes/frontend/csr-ssr.md)
+
