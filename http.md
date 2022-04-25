@@ -9,6 +9,7 @@ HTTP는 HTML문서 와 같은 리소스들을 가져올 수 있도록 해주는 
 
 # URL
 서버에 자원을 요청하기 위해 입력하는 영문 주소이다.
+<img src="./images/URL.png">
 
 # HTTP Method
 * **GET** : 서버에 조회할 리소스 조회 요청(READ,조회)
@@ -17,5 +18,4 @@ HTTP는 HTML문서 와 같은 리소스들을 가져올 수 있도록 해주는 
 * **DELETE** : 서버에 삭제할 리소스 요청(DELETE,삭제)
 * **PATCH** : PUT은 전부다 수정 하지만 PATCH는 수정된 부분만 수정한다.
 * **HEAD** : 서버에 헤더 정보를 획득, GET과 비슷하지만 Response Body를 반환하지 않는다.
-* **OPTIONS** : 서버에 옵션들을 확인하기 위한 요청. CORS에서 사용한다.
-* 
+* **OPTIONS** : 서버에 옵션들을 확인하기 위한 요청. CORS에서 사용한다. 
