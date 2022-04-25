@@ -28,6 +28,6 @@ HTTP 상태코드는 서버에서 설정해주는 응답(Response) 정보이다.
 * **4XX(클라이언트 오류)** : 요청 문법이 잘못 되었거나 요청을 처리 할 수 없다.
 * **5XX(서버 오류)** : 서버가 명백히 유효한 요청에 대한 충족을 실패한 경우
 
-#참고 
-[프런트엔드 개발자가 알아야하는 HTTP 프로토콜 Part 1](https://joshua1988.github.io/web-development/http-part1/)
-[취준생이 반드시 알아야 할 프론트엔드 지식들](https://github.com/baeharam/Must-Know-About-Frontend/blob/main/Notes/network/http.md)
+# 참고 
+* [프런트엔드 개발자가 알아야하는 HTTP 프로토콜 Part 1](https://joshua1988.github.io/web-development/http-part1/)
+* [취준생이 반드시 알아야 할 프론트엔드 지식들](https://github.com/baeharam/Must-Know-About-Frontend/blob/main/Notes/network/http.md)
