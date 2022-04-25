@@ -9,7 +9,7 @@ HTTP는 HTML문서 와 같은 리소스들을 가져올 수 있도록 해주는 
 
 # URL
 서버에 자원을 요청하기 위해 입력하는 영문 주소이다.
-* <img src="./images/URL.png">
+ <img src="./images/URL.png">
 
 # HTTP Method
 * **GET** : 서버에 조회할 리소스 조회 요청(READ,조회)
