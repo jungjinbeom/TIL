@@ -1,6 +1,7 @@
 # SSR(Sever Side Randering) 
 ## SSR 이란 ? 
 브라우저에서 서버에 페이지를 요청할 때 마다 완전하게 만들어진 HTML, CSS, JS 파일을 받아와 해당 페이지를 렌더링 하는 방식이며 대표적으로 사용되는 라이브러리는 [Next.js](https://github.com/jungjinbeom/TIL/blob/master/React/Next/Next.md)가 있다.
+
 <img src="./images/ssr.png">
 
 
