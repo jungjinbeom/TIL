@@ -47,4 +47,3 @@ API와 의미 및 동작을 가능한 React답게 유지하면서 React의 상�
   ```jsx
     const fontSizeLabel = useRecoilValue(fontSizeLabelState);
   ```
-  * 
