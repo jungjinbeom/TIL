@@ -1,5 +1,5 @@
-#let, const
-##변수를 정의하는 새로운 방법
+# let, const
+## 변수를 정의하는 새로운 방법
 * ES5 까지는 자바스크립트에서 var를 사용해서 변수를 정의해왔다. 하지만 ES6 문법 부터는 더 이상 var를 사용하지 않고 const 와 let 을 사용한다.
 * const,let : 블록 스코프 , var : 함수 스코프
  ```javascript
