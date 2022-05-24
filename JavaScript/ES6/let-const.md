@@ -18,7 +18,7 @@ console.log(y);
 // 블록스코프여서 스코프에 선언한 변수에 접근을 못한다 
 ```
 
-##const,let의 차이점 
+## const,let의 차이점 
 * const 는 정의된 변수는 재할당이 불가능하다
 * let은 재할당이 가능하다
 ```javascript
