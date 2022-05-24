@@ -43,7 +43,7 @@ API와 의미 및 동작을 가능한 React답게 유지하면서 React의 상�
   })
   ```
   * get 속성은 계산될 함수이다. 전달되는 get인자를 통해 atoms와 다른 selectors에 접근 할 수 있다. 다른 atoms나 selectors에 접근하면 자동으로 종속 관계가 생성되므로, 참조 했던 다른 atoms나 selectors가 업데이트되면 이 함수도 다시 실행된다 
-  * Selectors는 **useRecoilValue()**를 사용해 읽을 수 있다. **useRecoilValue()**는 하나의 atom이나 selector를 인자로 받아 대응하는 값을 반환한다.
+  * Selectors는 **useRecoilValue()** 를 사용해 읽을 수 있다. **useRecoilValue()** 는 하나의 atom이나 selector를 인자로 받아 대응하는 값을 반환한다.
   ```jsx
     const fontSizeLabel = useRecoilValue(fontSizeLabelState);
   ```
