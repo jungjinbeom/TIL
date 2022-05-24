@@ -1,5 +1,5 @@
-#ContextAPI 
-##ContextAPI 란?
+# ContextAPI 
+## ContextAPI 란?
 * 상위 컴포넌트에서 컴포넌트가 중간에 개입하지 않고 하위 컴포넌트로 직접 데이터를 전달 할 수 있는 API이다.
 
 ## Context API 사용 이유
@@ -8,7 +8,7 @@
     * 상위 컴포넌트에서 하위 컴포넌트가 전달 해주려면 속성 값(props)을 내려주는 코드를 중첩적으로 작성해야하는 경우가 생긴다
     * 위와 같은 이러한 문제점을 해결하기 위해 **context API**를 사용한다.
     
-##ContextAPI 사용법 
+## ContextAPI 사용법 
 - **createContext**
     * **context** 객체를 만들때 사용하는 함수입니다.
     * **createContext**함수를 호출하면  **Provider**와 **Consumer** 컴포넌트를 반환합니다.
