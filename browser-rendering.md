@@ -14,3 +14,4 @@
 5. Rendering Tree에서 각노드가 가지는 정확한 위치와 크기 계산 후 레이아웃 생성(Generating the Layout)
 6. 계산한 위치/크기를 기반으로 화면에 페인팅(Painting)
 7. 레이어를 합성하여 실제 화면에 나타낸다(Composite)
+<img src="./images/브라우저 렌더링.png">
