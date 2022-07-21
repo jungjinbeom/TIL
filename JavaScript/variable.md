@@ -56,3 +56,6 @@ console.log(x); // 5
 호이스팅은 다른 언어에는 없는 자바스크립트만의 고유한 특징이나, 이해하기 쉬운 코드 작성을  
 위해서는 **반드시 시작부에 변수를 선언**하는것이 좋다 
 
+# 참고 자료 
+[자바스크립트 변수(Variable)](https://velog.io/@yuuuye?tag=%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
+[JavaScript 변수란?](https://velog.io/@jungks9351/%EB%B3%80%EC%88%98)
