@@ -1,5 +1,3 @@
-# Chapter5 함수
-
 # 5.1 함수 매개변수
 
 song을 매개변수로 받아 콘솔 로그로 찍는 함수이다.
@@ -470,3 +468,17 @@ function createDate(monthOrTimestamp, day, year){
 - **오버로드 시그니처**를 사용 시 **구현 시그니처**에서 **선언한 매개변수 타입과 반환 타입과 동일하게 선언**하여 사용해야한다.
 - 아래의 코드를 보면 첫번째, 두번째 **오버로드 시그니처**는 **구현 시그니처**의 매개변수 타입 반환 타입이 동일하여 호환 된다
 - 세번째 **오버로드 시그니처**는 매개변수 타입이 동일 하지 않아 타입스크립트에서 에러를 발생 시킨다.
+
+```tsx
+function format(data : string): string //ok
+function format(data : string, needle: string, haystack: string): string//ok
+
+function format(getData: ()=> string): string 
+//
+// Error : This overload signature is not compatiblewith its implementation 
+// signature
+
+function format(data: string, needle?: string, haystack?: string){
+	return needl && haystack ? data.replace(needle, haystack) : data;
+}
+```
